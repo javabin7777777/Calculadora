@@ -1,0 +1,152 @@
+@import url('resetCalculadora.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    background-color: #ffffff;
+   /* background-image: url('/img/geometry.webp');
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    color: #000000;    
+    font-family: 'Roboto','Open Sans','sans-serif';   
+}
+
+.item {
+    flex: auto;
+}
+
+header {
+    margin-top: 1.5rem;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    /*margin: 3px auto 5px auto;*/
+    opacity: 0.75;
+}
+
+/*
+#container {
+    width: 80%;
+    max-width: 750px;
+    margin: 20px auto;
+    border: 1px solid rgb(78, 68, 168);
+    border-radius: 20px;
+    padding: 10px;
+    display: block;
+}
+*/
+
+.flex-container {    
+    display: flex;
+    /*border-radius: 20px;*/
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;             
+}
+
+.grid-container {
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto; 
+}
+
+.grid-item { /* Utilizada no elemento sinal de igual,do arquivo 'buildElements.js' */
+    grid-column: 5/span 6;
+    margin: auto auto auto 15px;
+}
+
+
+/*
+.flex-container1 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;    
+    
+}
+*/
+
+/*
+#containerButton {
+    width: 80%;
+    margin: auto;
+}
+*/
+
+
+#input {
+    width: 37.5rem;
+    height: 6rem;
+    /*margin-bottom: 10px;*/
+    padding: auto;
+    border-radius: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+button:hover {  
+    background-color: hsl(139, 100%, 50%);  
+    filter: brightness(3.0);
+    cursor: pointer;
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 80px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight: 900;
+    color: black;
+    background-color: #c7ff1f;
+
+}
+.number:hover {
+    background-color: hsl(96, 100%, 56%);
+}
+
+.operator1,
+button {
+    width: 55px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    font-weight: 900;
+    color: black;
+    background-color: lightblue;
+}
+
+#equal {
+    width: 90%;
+    font-size: 35px;
+}
+#rodape {    
+    align-self: flex-start;
+    margin-left: 1rem;
+    margin-top: 1.8rem;
+    font-size: 0.8rem;
+   
+}
+#rodape-imagem {
+    width: 1.5rem;
+    margin-right: 0.2rem;
+}
