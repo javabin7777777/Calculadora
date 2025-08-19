@@ -14,18 +14,18 @@ Aceita caracter ' ; ' após ' e ou E '.
 ### Função validation 
 fatorial de 99 = 9.332621544394415e+155,que ao fazer fatorial,resultou 'NÃO É POSSÍVEL',e deveria ser 'SOBRECARGA'.
 Não aceita começar com sinal de + | não aceita ' 1e+1 ou 1e-1 ' (notação científica).   
-Ao colocar somente o caracter '-' resulta em: 
-VM422:1  Uncaught SyntaxError: Unexpected end of input
-    at equalSign (equal.js:109:34)
-    at HTMLButtonElement.<anonymous> (utilities.js:265:70)  
+~~ Ao colocar somente o caracter '-' resulta em: ~~
+~~ VM422:1  Uncaught SyntaxError: Unexpected end of input ~~
+   ~~ at equalSign (equal.js:109:34) ~~ 
+   ~~ at HTMLButtonElement.<anonymous> (utilities.js:265:70) ~~ 
 
-Ao colocar somente o caracter '+' resulta em: Uncaught SyntaxError: Unexpected end of input
-    at equalSign (equal.js:109:34)
-    at HTMLButtonElement.<anonymous> (utilities.js:265:70) 
+~~ Ao colocar somente o caracter '+' resulta em: Uncaught SyntaxError: Unexpected end of input ~~
+    ~~at equalSign (equal.js:109:34)~~
+    ~~at HTMLButtonElement.<anonymous> (utilities.js:265:70)~~  
 
-Ao colocar somente o caracter '*' resulta em : Uncaught SyntaxError: Unexpected token '*'
-    at equalSign (equal.js:109:34)
-    at HTMLButtonElement.<anonymous> (utilities.js:265:70)  
+~~ Ao colocar somente o caracter '*' resulta em : Uncaught SyntaxError: Unexpected token '*' ~~ 
+    ~~ at equalSign (equal.js:109:34)~~ 
+    ~~ at HTMLButtonElement.<anonymous> (utilities.js:265:70)~~   
 
 Ao colocar somente o caracter  '/' resulta em : Uncaught SyntaxError: Invalid regular expression: missing /
     at equalSign (equal.js:109:34)

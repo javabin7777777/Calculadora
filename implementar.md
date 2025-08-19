@@ -1,6 +1,5 @@
 ***  
-Converter angulo de grau para radiano.OKAY  
-inserir simbolo de grau(º) e extraí-lo para a operação.OKAY  
-Mostra última operacao seno,cos,tan com angulo em grau.OKAY    
+Converter ângulo de grau para radiano. --> OKAY  
+Inserir símbolo de grau(º) e extraí-lo para a operação. --> OKAY  
+Mostra última operação seno,cosseno,tangente com ângulo em grau. --> OKAY    
 ***
-
